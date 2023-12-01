@@ -1,0 +1,342 @@
+/* Resetting some default styles for consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #232323;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ffcc00;
+  }
+  
+  main {
+    padding: 40px 0;
+  }
+  
+  section {
+    margin-bottom: 60px;
+  }
+  
+  section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  /* Resetting some default styles for consistency */
+body, h1, h2, h3, p, ul, li, input {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+  }
+  
+  header {
+    background-color: #232323;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  main {
+    padding: 40px 0;
+  }
+  
+  .trading {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .buy-sell {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+  }
+  
+  .buy,
+  .sell {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .buy h2,
+  .sell h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="number"],
+  input[type="submit"] {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    cursor: pointer;
+    background-color: #ffcc00;
+    color: #232323;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #e6b800;
+  }
+  
+  .trade-history {
+    width: 45%;
+  }
+  
+  .trade-history h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .trade-history ul {
+    list-style-type: none;
+  }
+  
+  .trade-history ul li {
+    margin-bottom: 5px;
+  }
+/* Styles from previous code remain unchanged */
+
+/* Additional styling for the 'About' section */
+#about {
+    padding: 40px 0;
+  }
+  
+  #about .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+/* Styles from previous code remain unchanged */
+
+/* Additional styling for the 'Contact' section */
+#contact {
+    padding: 40px 0;
+  }
+  
+  #contact .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  #contact form {
+    max-width: 500px;
+  }
+  
+  #contact form label,
+  #contact form input,
+  #contact form textarea,
+  #contact form input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  #contact form textarea {
+    height: 150px;
+  }
+  
+  #contact form input[type="submit"] {
+    cursor: pointer;
+    background-color: #ffcc00;
+    color: #232323;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #contact form input[type="submit"]:hover {
+    background-color: #e6b800;
+  }
+/* Resetting some default styles for consistency */
+body, h1, h2, h3, p, ul, li, input, textarea {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+  }
+  
+  header {
+    background-color: #232323;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ffcc00;
+  }
+  
+  main {
+    padding: 40px 0;
+  }
+  
+  #contact {
+    padding: 0 20px;
+  }
+  
+  #contact .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  #contact form label,
+  #contact form input,
+  #contact form textarea,
+  #contact form input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #contact form textarea {
+    height: 150px;
+  }
+  
+  #contact form input[type="submit"] {
+    cursor: pointer;
+    background-color: #ffcc00;
+    color: #232323;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  #contact form input[type="submit"]:hover {
+    background-color: #e6b800;
+  }
+        
